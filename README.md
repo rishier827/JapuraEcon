@@ -44,6 +44,14 @@ Here are some advices for our users that want to report an issue:
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
+### Bit for your knowledge regarding upstream n merging
+first check whether ur forked(rishier827/JapuraEcon) repository and original(sigzonicLabs/JapuraEcon) were there,
+``` git remote -v ```
+If not please add original repository from this command
+```git remote add upstream https://github.com/sigzonicLabs/JapuraEcon.git```
+After adding then
+```git fetch upstream```
+``` git merge upstream/master```
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
